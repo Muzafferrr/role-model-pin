@@ -10,7 +10,7 @@
       <b-form-textarea class="mt-2" v-model="modelAbout" rows="3" max-rows="6"
                        placeholder="Notes about him..."></b-form-textarea>
       <b-form-tags class="mt-2" v-model="tags" input-id="tags-basic"></b-form-tags>
-      <b-button class="mt-2" block variant="outline-primary" @click="sendRoleModel()">Primary</b-button>
+      <b-button class="mt-2" block variant="outline-primary" @click="sendRoleModel()">Add Role Model</b-button>
     </b-form>
   </div>
 </template>
